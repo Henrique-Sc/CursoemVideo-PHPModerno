@@ -4,7 +4,7 @@
 
 Material das aulas, exercícios e anotações do curso de PHP do Curso em Vídeo
 
-<img src="imgs/phpmoderno_icon.jpg" width=140px align="right" style="float: right; margin-left: 25px">
+<img src="imgs/phpmoderno_icon.jpg" width=140px align="right">
 
 ---
 
