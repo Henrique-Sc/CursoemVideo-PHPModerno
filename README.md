@@ -32,8 +32,8 @@ Material das aulas, exercícios e anotações do curso de PHP do Curso em Vídeo
 Não! no PHP existe diversas formas de colocar um código PHP dentro do HTML, além da forma mais comum, sendo a Super tag (`<?php ?>`)
 
 Além dessa forma, existe outras 4:
-1. `<? ?>` - Precisa habilitar as shor tags
-1. `<?= ?>` - Precisa habilitat a *short tags* no `php.ini` e utilizar
+1. `<? ?>` - Precisa habilitar o *short_open-tag* no `php.ini`
+1. `<?= ?>` - 
 1. `<% %>`
 1. `<script language="php"> </script>`
 
