@@ -8,11 +8,14 @@ Material das aulas, exercícios e anotações do curso de PHP do Curso em Vídeo
 
 ---
 
+
 ### Curiosidades sobre o PHP
 <details>
-    <summary>Por que um elefante?</summary>
-    
-De acordo com [Vincent]("https://www.instagram.com/vincentpontier/")
+<summary>Por que um elefante?</summary>
+
+<ul>De acordo com <a href="https://www.instagram.com/vincentpontier/"">Vincent</a>, ele achou que as letras da sigla PHP, olhadas de um certo ângulo, parecia um elefante.</ul>
+
+<img src="imgs/elephpant.png" width="130px">
 </details>
 
 <details>
