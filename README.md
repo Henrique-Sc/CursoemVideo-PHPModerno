@@ -14,8 +14,8 @@ Material das aulas, exercícios e anotações do curso de PHP do Curso em Vídeo
     <summary>Por que um elefante?</summary>
     <br>
     Pois <a href="https://www.instagram.com/vincentpontier/"">Vincent</a> (criador do mascote), achou que as letras da sigla PHP, olhadas de um certo ângulo, parecia um elefante.
-
-<img src="imgs/elephpant.png" width="130px">
+    <br>
+    <img src="imgs/elephpant.png" width="130px">
 </details>
 
 <details>
