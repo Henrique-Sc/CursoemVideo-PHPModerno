@@ -24,4 +24,14 @@ Material das aulas, exercícios e anotações do curso de PHP do Curso em Vídeo
     <b>P</b>HP <b>H</b>ypertext <b>P</b>reprocessor.
 </details>
 
+<!--
+<details>
+    <summary>Apenas a Super Tag funciona?</summary>
+    <br>
+
+`<?php?>`
+
+</details>
+-->
+
 <!-- ## Anotações -->
