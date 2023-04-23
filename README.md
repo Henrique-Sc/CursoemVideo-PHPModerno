@@ -33,14 +33,40 @@ Não! no PHP existe outras 4 formas de colocar um código PHP dentro do HTML, al
 
 
 
-Nome | Código | Como utilizar 
- --- | ---    | ---
-Short open tag | `<? ?>` | Precisa habilitar *"short_open-tag"* no `php.ini`
-Short open tag | `<?= ?>` | Habilitada da mesma forma do item acima e **substitui o comando `echo`**
-Asp tags | `<% %>` | Precisa habilitar *"asp_tags"* no `php.ini` e utilizar a versão **PHP <= 5.6**
+Nome            | Código   | Como utilizar 
+ ---            | ---      | ---
+Short open tag  | `<? ?>`  | Precisa habilitar *"short_open-tag"* no `php.ini`
+Short open tag  | `<?= ?>` | Habilitada da mesma forma do item acima e **substitui o comando `echo`**
+Asp tags        | `<% %>`  | Precisa habilitar *"asp_tags"* no `php.ini` e utilizar a versão **PHP <= 5.6**
 Marca de script | `<script language="php"> </script>` | Apenas para **PHP <= 5.6.40**
 
 </details>
 
 
-<!-- ## Anotações -->
+## Anotações
+
+
+<details>
+    <summary>
+    <b>Variáveis e Constantes</b>
+    </summary>
+
+As variáveis e constantes são espaços na memória, onde podemos armazenar valores e consulta-los quando quisermos. Porém, os valores nas `variáveis podem variar`, e os valores nas `constantes não variam`.
+
+Como declarar | Exemplo 
+---           | ---
+`$nome`       | `$nome = 'Henrique'`
+`const PAIS`  | `const PAIS = 'Brasil'`
+
+*Obs: o nome das variáveis e constantes podem contem acentos, embora não seja uma boa prática.*
+
+#### Regras para nomes indentificadores
+
+1. Variáveis sempre começam com o **símbolo `$`**.
+2. O segundo carácter (após o `$`) pode ser **letra** ou **símbolo**.
+3. O terceiro pode ser **[a-z]**, **[A-Z]**, **[0-9]** e **[_]**.
+4. Aceita caracteres da tabela **ASCII** a partir de **128**.
+5. Aceita caracteres acentuados como **á**, **õ**, **ç**.
+6. A linguagem é **case sensitive** em relação aos nomes.
+7. Nomes especiais (indentificadores reservados) como o `$this` não podem ser usados.
+</details>
