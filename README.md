@@ -25,19 +25,22 @@ Material das aulas, exercícios e anotações do curso de PHP do Curso em Vídeo
 </details>
 
 
-<!-- <details>
+<details>
     <summary>Apenas a Super Tag funciona?</summary>
     <br>
 
-Não! no PHP existe diversas formas de colocar um código PHP dentro do HTML, além da forma mais comum, sendo a Super tag (`<?php ?>`)
+Não! no PHP existe outras 4 formas de colocar um código PHP dentro do HTML, além da forma mais comum, sendo a Super tag (`<?php ?>`). Entrentanto, é recomendado utilizar a Super tag.
 
-Além dessa forma, existe outras 4:
-1. `<? ?>` - Precisa habilitar o *short_open-tag* no `php.ini`
-1. `<?= ?>` - 
-1. `<% %>`
-1. `<script language="php"> </script>`
 
-</details> -->
+
+Nome | Código | Como utilizar 
+ --- | ---    | ---
+Short open tag | `<? ?>` | Precisa habilitar *"short_open-tag"* no `php.ini`
+Short open tag | `<?= ?>` | Habilitada da mesma forma do item acima e **substitui o comando `echo`**
+Asp tags | `<% %>` | Precisa habilitar *"asp_tags"* no `php.ini` e utilizar a versão **PHP <= 5.6**
+Marca de script | `<script language="php"> </script>` | Apenas para **PHP <= 5.6.40**
+
+</details>
 
 
 <!-- ## Anotações -->
