@@ -15,6 +15,5 @@
         echo "Hoje é dia ". date('d/M/Y');
         echo " e a hora é " . date('G:i:s');
     ?>
-
 </body>
 </html>
