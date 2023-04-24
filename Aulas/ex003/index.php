@@ -10,6 +10,7 @@
     <h1>Variáveis e Constante</h1>
 
     <?php
+        // -------------------------
         $nome = 'Henrique';
         $sobrenome = 'Silva';
         const PAIS = 'Brasil';
@@ -18,6 +19,24 @@
         // PAIS = 'França';
 
         echo "Muito prazer, $nome $sobrenome! Você mora no(a) " . PAIS . ".";
+        // -------------------------
+
+        
+        echo "<hr>";
+
+
+        // -------------------------
+        $nome = 'Pedro';
+        $Nome = 'Maria';
+
+        echo "É verdade que seu nome é $nome?";
+        // -------------------------
+
+
+        // -------------------------
+        $camelCase = 'camelCase';
+        $snake_case = 'SNAKE_CASE'
+        // -------------------------
     ?>
 </body>
 </html>
