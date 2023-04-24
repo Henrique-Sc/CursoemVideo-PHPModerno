@@ -69,4 +69,14 @@ Como declarar | Exemplo
 5. Aceita caracteres acentuados como **á**, **õ**, **ç**.
 6. A linguagem é **case sensitive** em relação aos nomes.
 7. Nomes especiais (indentificadores reservados) como o `$this` não podem ser usados.
+
+#### Recomendações para dar nomes 
+
+1. Tente dar nomes **claros** e de **fácil** identificação
+1. Evite nomes muito **curtos** ou **longos**
+1. Defina um **padrão** e siga em todo o projeto
+1. Para **variáveis**, dê preferência a letras **minúsculas**
+1. Para **constantes**, dê preferências a letras **maiúsculas**
+1. Use **camelCase** para métodos e atributos
+1. Use **SNAKE_CASE** para nomear constantes
 </details>
