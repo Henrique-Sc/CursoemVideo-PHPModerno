@@ -6,10 +6,12 @@ Material das aulas, exercícios e anotações do curso de PHP do Curso em Vídeo
 
 <img src="imgs/phpmoderno_icon.jpg" width=140px align="right">
 
+
 ---
 
 
 ### Curiosidades sobre o PHP
+
 <details>
     <summary>Por que um elefante?</summary>
     <br>
@@ -33,19 +35,19 @@ Não! no PHP existe outras 4 formas de colocar um código PHP dentro do HTML, al
 
 
 
-Nome            | Código   | Como utilizar 
- ---            | ---      | ---
-Short open tag  | `<? ?>`  | Precisa habilitar *"short_open-tag"* no `php.ini`
-Short open tag  | `<?= ?>` | Habilitada da mesma forma do item acima e **substitui o comando `echo`**
-Asp tags        | `<% %>`  | Precisa habilitar *"asp_tags"* no `php.ini` e utilizar a versão **PHP <= 5.6**
-Marca de script | `<script language="php"> </script>` | Apenas para **PHP <= 5.6.40**
+| Nome            | Código                              | Como utilizar                                                                  |
+|  ---            | ---                                 | ---                                                                            |
+| Short open tag  | `<? ?>`                             | Precisa habilitar *"short_open-tag"* no `php.ini`                              |
+| Short open tag  | `<?= ?>`                            | Habilitada da mesma forma do item acima e **substitui o comando `echo`**       |
+| Asp tags        | `<% %>`                             | Precisa habilitar *"asp_tags"* no `php.ini` e utilizar a versão **PHP <= 5.6** |
+| Marca de script | `<script language="php"> </script>` | Apenas para **PHP <= 5.6.40**                                                  |
 
 </details>
+<!-- Curiosidades sobre o PHP -->
+
 
 
 ## Anotações
-
-
 <details>
     <summary>
     <b>Variáveis e Constantes</b>
@@ -53,10 +55,10 @@ Marca de script | `<script language="php"> </script>` | Apenas para **PHP <= 5.6
 
 As variáveis e constantes são espaços na memória, onde podemos armazenar valores e consulta-los quando quisermos. Porém, os valores nas `variáveis podem variar`, e os valores nas `constantes não variam`.
 
-Como declarar | Exemplo 
----           | ---
-`$nome`       | `$nome = 'Henrique'`
-`const PAIS`  | `const PAIS = 'Brasil'`
+| Como declarar | Exemplo                 |
+| ---           | ---                     |
+| `$nome`       | `$nome = 'Henrique'`    |
+| `const PAIS`  | `const PAIS = 'Brasil'` |
 
 *Obs: o nome das variáveis e constantes podem contem acentos, embora não seja uma boa prática.*
 
@@ -80,3 +82,41 @@ Como declarar | Exemplo
 1. Use **camelCase** para métodos e atributos
 1. Use **SNAKE_CASE** para nomear constantes
 </details>
+
+
+<details>
+    <summary>Tipos primitivos</summary>
+
+#### Tipos primitivos escalares
+
+| Nome da variável | Valor | Tipo                                                              | Definição                                                                                                     |
+| ---              | ---   | ---                                                               | ---                                                                                                           |
+| `$Silva`         | Silva | **String**                                                        | Sequência de letras, números e símbolos, sempre representadas entre aspas                                     |
+| `$idade`         | 34    | **Int** ou **integer**                                            | Um valor numérico Inteiro, aquele que vem sem a parte decimal.                                                |
+| `$peso`          | 85.9  | **Float**, **double** ou **real**. *Real* apenas no *PHP < 7.4*   | Um valor numérico Real, que vem com a parte decimal, depois do ponto flutuante.                               |
+| `$casado`        | true  | **Bool** ou **boolean**                                           | Um valor lógico ou Booleano, que aceita apenas os valores verdadeiro ou falso (**true** ou **false**).        |
+
+
+#### > 10 Exemplos 
+
+| Valor     | Resposta   |
+| ---       | ---        |
+| `"RJ"`    | `string`   |
+| `3.1415 ` | `float`    |
+| `17`      | `int`      |
+| `true`    | `bool`     |
+| `""`      | `atring`   |
+| `-19`     | `int`      |
+| `"fase"`  | `"string"` |
+| `0x1A`    | `int`      | 
+| `3e2`     | `float`    |
+| `"1024"`  | `string`   |
+
+**Obs:**
+- hexadecimal: 0x
+- Binário: 0b
+- Octal: 0o
+
+</details>
+
+<!-- Anotações -->
