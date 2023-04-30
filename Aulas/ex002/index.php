@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP</title>
+    <title>Exemplo de PHP • Curso em Vídeo - PHP Moderno</title>
 </head>
 <body>
     <h1>Exemplo de PHP</h1>

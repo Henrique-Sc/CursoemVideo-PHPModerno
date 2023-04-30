@@ -10,7 +10,8 @@
     <h1>Variáveis e Constante</h1>
 
     <?php
-        // -------------------------
+        // ===============================================
+        // Constantes
         $nome = 'Henrique';
         $sobrenome = 'Silva';
         const PAIS = 'Brasil';
@@ -18,25 +19,31 @@
         $nome = 'Gustavo';
         // PAIS = 'França';
 
-        echo "Muito prazer, $nome $sobrenome! Você mora no(a) " . PAIS . ".";
-        // -------------------------
-
-        
+        echo "<p>Muito prazer, $nome $sobrenome! Você mora no(a) " . PAIS . ".</p>";
         echo "<hr>";
 
 
-        // -------------------------
+        // ===============================================
+        // Case sensitive
         $nome = 'Pedro';
         $Nome = 'Maria';
 
-        echo "É verdade que seu nome é $nome?";
-        // -------------------------
+        echo "<h3>Case sensitive</h3";
+        echo "<p>É verdade que seu nome é $nome?</p>";
+        echo "<hr>";
 
 
-        // -------------------------
+        // ===============================================
+        // Convenções
         $camelCase = 'camelCase';
-        $snake_case = 'SNAKE_CASE'
-        // -------------------------
+        $PascalCase = 'PascalCase';
+        $snake_case = 'snake_case';
+
+        echo "<h3>Convenções</h3>";
+        echo "<p>$camelCase</p>";
+        echo "<p>$PascalCase</p>";
+        echo "<p>$snake_case</p>";
+        echo "<hr>";
     ?>
 </body>
 </html>

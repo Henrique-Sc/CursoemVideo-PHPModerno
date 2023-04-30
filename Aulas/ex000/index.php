@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=2.0">
-    <title>Me livrando da Maldição</title>
+    <title>Me livrando da Maldição • Curso em Vídeo - PHP Moderno</title>
 </head>
 <body>
     <h1>
