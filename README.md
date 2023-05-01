@@ -89,12 +89,12 @@ As variáveis e constantes são espaços na memória, onde podemos armazenar val
 
 #### Tipos primitivos escalares
 
-| Nome da variável | Valor | Tipo                                                              | Definição                                                                                                     |
-| ---              | ---   | ---                                                               | ---                                                                                                           |
-| `$Silva`         | Silva | **String**                                                        | Sequência de letras, números e símbolos, sempre representadas entre aspas                                     |
-| `$idade`         | 34    | **Int** ou **integer**                                            | Um valor numérico Inteiro, aquele que vem sem a parte decimal.                                                |
-| `$peso`          | 85.9  | **Float**, **double** ou **real**. *Real* apenas no *PHP < 7.4*   | Um valor numérico Real, que vem com a parte decimal, depois do ponto flutuante.                               |
-| `$casado`        | true  | **Bool** ou **boolean**                                           | Um valor lógico ou Booleano, que aceita apenas os valores verdadeiro ou falso (**true** ou **false**).        |
+| Nome da variável | Valor   | Tipo                                                              | Definição                                                                                                     |
+| ---              | ---     | ---                                                               | ---                                                                                                           |
+| `$sobrenome`     | "Silva" | **String**                                                        | Sequência de letras, números e símbolos, sempre representadas entre aspas                                     |
+| `$idade`         | 34      | **Int** ou **integer**                                            | Um valor numérico Inteiro, aquele que vem sem a parte decimal.                                                |
+| `$peso`          | 85.9    | **Float**, **double** ou **real**. *Real* apenas no *PHP < 7.4*   | Um valor numérico Real, que vem com a parte decimal, depois do ponto flutuante.                               |
+| `$casado`        | true    | **Bool** ou **boolean**                                           | Um valor lógico ou Booleano, que aceita apenas os valores verdadeiro ou falso (**true** ou **false**).        |
 
 
 #### > 10 Exemplos 
