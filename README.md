@@ -85,7 +85,7 @@ As variáveis e constantes são espaços na memória, onde podemos armazenar val
 
 
 <details>
-    <summary>Tipos primitivos</summary>
+    <summary><b>Tipos primitivos</b></summary>
 
 #### Tipos primitivos escalares
 
@@ -118,5 +118,11 @@ As variáveis e constantes são espaços na memória, onde podemos armazenar val
 - Octal: 0o
 
 </details>
+
+<!-- <details>
+    <summary><b></b></summary>
+
+
+</details> -->
 
 <!-- Anotações -->
